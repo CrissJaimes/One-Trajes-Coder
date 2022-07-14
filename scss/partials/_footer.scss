@@ -1,0 +1,10 @@
+footer{
+    background-color: map-get($colores, color_primario);
+    border-top: $border;
+}
+
+.social_logo{
+    @include img(3.2rem, auto);
+    margin-top: 2rem;
+    margin-right: 2rem;
+}

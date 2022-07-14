@@ -1,0 +1,14 @@
+header{
+    border-bottom: $border;
+    background-color: map-get($colores, color_primario);
+}
+
+.img_logo{
+    @include img(13rem, auto);
+    border-radius: 5%;
+    background-color: rgba(0, 0, 0, 0.39);
+}
+
+nav ul li a{
+    font-size: 1.3rem;
+}
