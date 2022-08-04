@@ -1,10 +1,33 @@
 footer{
     background-color: map-get($colores, color_primario);
     border-top: $border;
+    font-family: 'Tinos', serif;
 }
 
 .social_logo{
     @include img(3.2rem, auto);
     margin-top: 2rem;
     margin-right: 2rem;
+    @include borders(1px, solid, white);
+    background-color: whitesmoke;
+    border-radius: 70%;
 }
+
+.color_letter_white{
+    color: white;
+}
+
+#email_box{
+    border: none;
+    border-bottom: 1px solid whitesmoke;
+}
+
+.background_email{
+    @extend .color_letter_white;
+    border: none;
+    font-size: 1.3rem;
+    background-color: transparent;
+    width: 95%;
+}
+
+

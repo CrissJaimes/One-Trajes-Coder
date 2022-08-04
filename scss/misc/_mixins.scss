@@ -3,3 +3,8 @@
     width: $width;
 }
 
+@mixin borders ($width, $style, $color) {
+    border-width: $width;
+    border-style: $style;
+    border-color: $color;
+}
