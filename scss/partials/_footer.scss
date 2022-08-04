@@ -8,9 +8,12 @@ footer{
     @include img(3.2rem, auto);
     margin-top: 2rem;
     margin-right: 2rem;
-    @include borders(1px, solid, white);
+    @include borders(1.5px, solid, white);
     background-color: whitesmoke;
     border-radius: 70%;
+    &:hover{
+        transform: scale(1.23);
+    }
 }
 
 .color_letter_white{
